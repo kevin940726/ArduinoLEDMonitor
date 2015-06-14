@@ -178,7 +178,7 @@ void loop()
 
   if (millis() >= waitUntilTurn){
     turn = !turn;
-    waitUntilTurn = millis() + 30000;
+    waitUntilTurn = millis() + 15000;
   }
    
 }
